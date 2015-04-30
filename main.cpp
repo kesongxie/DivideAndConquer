@@ -33,6 +33,7 @@ std::vector<int> MergeSortRecurssive(std::vector<int> array){
     for(long i=0; i < length/2; i++){
         left.push_back(array.at(i));
     }
+    //get the right half
     for(long i=length/2; i < length; i++){
        right.push_back(array.at(i));
     }
